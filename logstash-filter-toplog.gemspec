@@ -1,8 +1,8 @@
 Gem::Specification.new do |s|
-  s.name = 'logstash-filter-example'
-  s.version         = '0.1.4'
+  s.name = 'logstash-filter-toplog'
+  s.version         = '0.1.0'
   s.licenses = ['Apache License (2.0)']
-  s.summary = "This example filter replaces the contents of the message field with the specified value."
+  s.summary = "Converts log's timestamp to Epoch, breaks apart it's message and labels the message's default source if column is specified."
   s.description = "This gem is a logstash plugin required to be installed on top of the Logstash core pipeline using $LS_HOME/bin/plugin install gemname. This gem is not a stand-alone program"
   s.authors = ["Elastic"]
   s.email = 'info@elastic.co'

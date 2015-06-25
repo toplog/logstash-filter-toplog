@@ -2,6 +2,7 @@
 require "logstash/filters/base"
 require "logstash/namespace"
 require "set"
+require "json"
 
 class LogStash::Filters::TopLog < LogStash::Filters::Base
 
